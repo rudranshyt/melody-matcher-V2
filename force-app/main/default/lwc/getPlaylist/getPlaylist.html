@@ -1,0 +1,31 @@
+<!--
+  @description       : get a playlist component where the user enters details
+  @author            : Rudransh Shukla
+  @group             : 
+  @last modified on  : 03-30-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="main">
+        <div>
+            <h1>Create Record</h1>
+            <lightning-input type="text" label="Add your Name" value={name} onchange={handleName}></lightning-input>
+            <lightning-input type="email" label="Enter your email" value={email}
+                onchange={handleEmail}></lightning-input>
+
+            <div class="picklist">
+                <label for="criteria">Criteria</label>
+                <select id="criteria" onchange={handleCriteria}>
+                    <option value="" disabled selected>Select Criteria</option>
+                    <template for:each={criteriaValues} for:item="item">
+                        <option key={item} value={item}>{item}</option>
+                    </template>
+                </select>
+            </div>
+
+            <div class="button">
+                <lightning-button variant="brand" label="Save Record" onclick={handleSaveButton}></lightning-button>
+            </div>
+        </div>
+    </div>
+</template>

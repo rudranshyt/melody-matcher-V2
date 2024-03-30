@@ -25,9 +25,16 @@
     margin-bottom: 20px;
     text-align: center;
   }
+  .main h3{
+    font-size: 23px;
+    font-weight: normal;
+    color: #575757;
+    margin-bottom: 20px;
+    text-align: center;
+  }
   
   .main p {
-    font-size: 20px;
+    font-size: 19px;
     color: #605e5e;
     margin-bottom: 30px;
     text-align: center;

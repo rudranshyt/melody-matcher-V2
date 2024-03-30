@@ -1,0 +1,46 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(185,173,149,255), rgba(185,173,149,255));
+  }
+  h1{
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      text-wrap: nowrap;
+      padding: 2%;
+  }
+  .container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .input-fields {
+    margin-bottom: 20px;
+  }
+  
+  .picklist {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button {
+    text-align: center;
+  }
