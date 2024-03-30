@@ -1,19 +1,23 @@
-# Salesforce DX Project: Next Steps
+# Melody Matcher
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A salesforce experience cloud web app to send playlist on emails on a selected criteriaa
+## How to Use
 
-## How Do You Plan to Deploy Your Changes?
+1. **Navigate** through the UI of the app.
+2. **Create** a record.
+3. An **email** will be sent upon successful record creation, containing your specialized playlist.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## About Melody Matcher
 
-## Configure Your Salesforce DX Project
+Melody Matcher is an innovative application designed to curate specialised playlists tailored to your musical moods. With its intuitive user interface, creating a record is a breeze. Simply input your criteria, and Melody Matcher will do the rest. No more endless scrolling through generic playlists – receive a handpicked selection of tunes directly to your email inbox. 
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+### More Information
 
-## Read All About It
+- **Salesforce Experience Cloud**:[Salesforce Experience Cloud](https://www.salesforce.com/products/community-cloud/overview/)
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
-# melody-matcher-V2
+- **Lightning Web Components (LWC)**:[LWC documentation](https://developer.salesforce.com/docs/component-library/documentation/lwc).
+
+- **Apex**:[Apex Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_what_is_apex.htm) 
+
+---
+*Created by Rudransh Shukla*
