@@ -35,33 +35,17 @@ export default class GetPlaylist extends LightningElement {
             name: this.name,
             email: this.email,
             criteria: this.criteria
-        })
-            // .then(() => {
-            //     sendEmail({
-            //         emailId: this.email,
-            //         criteria: this.criteria,
-            //         name: this.name
-            //     })
-            .then(() => {
-                    alert("Record created successfully, check email");
-                    this.name = '';
-                    this.email = '';
-                    this.criteria = '';
-                // }).catch((error) => {
-                //     console.log('error',error);
-                //     alert('Email could not be sent, we are sorry for incovenience');
-                //     this.name = '';
-                //     this.email = '';
-                //     this.criteria = '';
-                // })
-
-            })
-            .catch(error => {
-                console.error('error--->', error);
-                alert("Record cannot be saved. Please try again later.");
-                this.name = '';
-                this.email = '';
-                this.criteria = '';
-            });
+        }).then(() => {
+            alert("Record created successfully, check email");
+            this.name = '';
+            this.email = '';
+            this.criteria = '';
+        }).catch(error => {
+            console.error('error--->', error);
+            alert("Record cannot be saved. Please try again later.");
+            this.name = '';
+            this.email = '';
+            this.criteria = '';
+        });
     }
 }
